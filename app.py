@@ -56,7 +56,7 @@ def main():
     sex = 1 if sex == 'Male' else 0
     fbs = 1 if fbs == 'Yes' else 0
     exang = 1 if exang == 'Yes' else 0
-T
+
     if cp == 'Typical Angina':
         cp = 0
     elif cp == 'Atypical Angina':
